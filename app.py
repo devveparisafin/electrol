@@ -5,7 +5,7 @@ import time
 import pandas as pd
 
 # --- Page Setup ---
-st.set_page_config(page_title="Smart PDF Search", page_icon="🔍", layout="wide")
+st.set_page_config(page_title="Smart PDF Voter Search", page_icon="🔍", layout="wide")
 
 # --- Custom CSS for style ---
 st.markdown("""
