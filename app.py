@@ -37,7 +37,7 @@ st.markdown("""
 
 # --- Header ---
 st.markdown("<div class='title'>🔍 Smart PDF Search Tool</div>", unsafe_allow_html=True)
-st.markdown("<div class='subtitle'>Search across all PDF files in the <b>pdfs/</b> folder</div>", unsafe_allow_html=True)
+# st.markdown("<div class='subtitle'>Search across all PDF files in the <b>pdfs/</b> folder</div>", unsafe_allow_html=True)
 
 # --- Folder Check ---
 pdf_folder = "pdfs"
@@ -45,7 +45,7 @@ pdf_folder = "pdfs"
 if not os.path.exists(pdf_folder):
     st.error(f"❌ Folder '{pdf_folder}' not found! Please create it and add PDFs.")
 else:
-    search_text = st.text_input("Enter text to search 🔎", placeholder="e.g. invoice, report, payment...")
+    search_text = st.text_input("Enter text to search 🔎", placeholder="e.g. વેપારી સાફિન ...")
 
     if st.button("Start Search 🚀", use_container_width=True):
         if not search_text.strip():
